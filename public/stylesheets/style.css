@@ -1,0 +1,33 @@
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(1, 1, 43);
+}
+
+* {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* .wrapper {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 5px solid var(--primary-color);
+} */
+
+nav { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    bottom: 0;
+}
